@@ -7,9 +7,32 @@ For now it's being made only for qmake projects.
 Library is structures in a folder-like manner with all related topics being under specific nested namespaces. It consists of a few main branches:
 
 - SFML++ (Easier usage of SFML components)
-
+  - Audio
+  - Graphics
+    - Button
+    - Fonts
+    - Sprite
+    - Text
+    - Textbox
+  - Network
+  - UI
+    - Graph
+    - Prompt
+    - Screen
+    - Table
 - Core (Core of the library. Contains maths, file handling and such)
-
+  - Constants
+  - File Handling
+  - Maths
+    - Random number int/float/doube
+    - Min number in vector int/float/double
+    - Max number in vector int/float/double
+    - Swap numbers int/float/double
+    - Factorial
+    - Vector2 class int/float/double
+    - Matrix class
+    - Complex number class
+  - Time
 - Mongo (Database creation/connections/usage)
 
 Usage
